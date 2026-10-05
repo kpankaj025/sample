@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jaspersoft.com" 
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+              xsi:schemaLocation="http://jaspersoft.com http://jaspersoft.com" 
+              name="employee_report" 
+              pageWidth="595" 
+              pageHeight="842" 
+              columnWidth="555" 
+              leftMargin="20" 
+              rightMargin="20" 
+              topMargin="20" 
+              bottomMargin="20" 
+              uuid="b2a89c11-cfcb-4197-8c31-314b998a72bf">
+    
+    <!-- Field definitions matching your exact object attributes -->
+    <field name="name" class="java.lang.String"/>
+    <field name="department" class="java.lang.String"/>
+    <field name="password" class="java.lang.String"/>
+    <field name="salary" class="java.lang.Double"/>
+    <field name="email" class="java.lang.String"/>
+    <field name="dob" class="java.time.LocalDate"/>
+
+</jasperReport>
